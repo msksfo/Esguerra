@@ -1,0 +1,225 @@
+
+
+@media all and (max-width: 767px){
+
+	nav {
+		margin-top: 10px;
+		border: 5px solid #4C57FF;
+		background-image: url('../images/calistabackground.png');
+	}
+
+	div.main.row {
+		margin: 20px 0;
+	}
+
+	#volleyball {
+		display: flex;
+		flex-direction: column;
+	}
+
+	iframe {
+		min-width: 90%;
+		margin: 0 5%;
+	}
+
+	#volleyballblurb {
+		min-width: 95%;
+		margin-left: 0;
+		padding: 0;
+		}
+
+} /* closes small media query */
+
+@media all and (max-width: 991px){
+	#volleyball {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	iframe {
+		min-width: 90%;
+		margin: 0 5%;
+	}
+
+	#volleyballblurb {
+		min-width: 95%;
+		padding: 0;
+		margin-top: 15px;
+		}
+
+} /* closes medium sized media query */
+
+/*------------------------------------------------------*/
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color:  #000772;
+	font-family: cursive;
+	color: #000772;
+	max-width: 1200px;
+	}
+
+
+.main {
+	display: flex;
+	margin: 40px 10px 30px 10px;
+	}
+
+#mainsection {
+	padding-top: 15px;
+	border: 5px solid #4C57FF;
+	background-image: url('../images/calistabackground.png');
+}
+
+#names-container {
+	display: flex;
+	flex-direction: column;
+	opacity: .4;
+	padding-top:15px;
+	font-size: 1.9rem;
+	}
+
+#names {
+	 flex: 1;
+	 display: flex;
+	 flex-direction: column;
+	}
+
+.nameslink {
+	display: block;
+	text-align: center;
+	justify-content: flex-end;
+	flex: 1;
+	text-decoration: none;
+	}
+	
+.extraspace {
+	flex-grow: 4;
+}
+	
+
+#names a {
+	color: white;
+	opacity: .8;
+	}
+	
+#names a:hover {
+	color: #e20080;
+	opacity: .8;
+	text-decoration: none;
+	}
+
+#calistaprofile {
+margin-right: 20px;
+margin-left: 15px;
+width: 200px;
+border: 2px solid red;
+float: right;
+transition: .5s ease;
+}
+
+#calistaprofile:hover {
+/*transform: scale(1.5);*/
+width: 300px;
+}
+
+h1 {
+	text-align: center;
+	color: #000772;
+	font-family: cursive;
+	font-size: 3.3em;
+	}
+
+#calistabio a {
+	text-decoration: none;
+	}
+
+h1:hover {
+	color: red;
+	}
+
+hr {
+	border-top: 2px solid #4C57FF;
+	width: 75%;
+	opacity: .5;
+	}
+
+p {
+	text-align: center;
+	padding-left:20px;
+	font-size: 1.1rem;
+}
+
+p > a {
+	color: orchid;
+	text-decoration: none;
+	}
+
+p > a:hover {
+	color: red;
+	}
+
+#calistabio {
+	margin-top: 10px;
+}
+
+#volleyball {
+	margin-top: 2rem;
+	}
+
+iframe {
+	float: left;
+	width: 60%;
+	}
+
+#volleyballblurb {
+	width: 37%;
+	float: left;
+	margin-left 1rem;
+	}
+
+#volleyballblurb a:hover {
+	text-decoration: none;
+}
+
+.meaning:hover {
+	text-decoration: none;
+}
+
+/*----------------------------------------------*/
+
+@media all and (min-width: 1200px){
+	.body {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border 1px solid rgba(139,137,137,.4)
+	}
+} /* closes xlarge media query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

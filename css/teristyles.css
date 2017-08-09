@@ -1,0 +1,119 @@
+body {
+	background-color: oldlace;
+	box-sizing: border-box;
+}
+
+.header {
+	border-bottom: 3px solid purple;
+	background-color: goldenrod;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#guitarcloseup {
+	opacity: .9;
+}
+
+#photosection {
+	margin: 0 auto;
+	display: flex;
+	border-top: 8px double rgba(225,225,225,.8);
+	padding-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#photosection img {
+	border: 3px double black;
+}
+
+#photosection p {
+	padding: 1.3%;
+	margin-top: 1.2rem;
+}
+
+#headerinfo {
+	border: 2px solid white;
+	padding: 10px;
+	margin-bottom: 2rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+#bandsection {
+	display: flex;
+	margin-top: 2.5rem;
+}
+
+#mobile-size-iframe {
+	margin-top: 2rem;
+}
+
+iframe {
+	width: 100%;
+}
+
+i.fa-home {
+	margin-left: 1rem;
+	color: gray;
+}
+i.fa-home:hover {
+	color: purple;
+}
+
+i.fa-heart {
+	color: red;
+}
+
+
+/* --------------------------------------------------- */
+
+
+
+@media all and (min-width: 768px){
+	.header {
+		flex-direction: row;
+		align-items: stretch;
+	}
+
+	#headerinfo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: none;
+	}
+
+	#photosection {
+		align-items: baseline;
+		margin-top: 2rem;
+	}
+
+	#photosection p {
+		margin-top: 1.4rem;
+		padding: 2%;
+	}
+
+} /* closes medium media query */
+
+@media all and (min-width: 1200px){
+	body {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid rgba(139,137,137,.4)
+	}
+} /* closes xlarge media query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

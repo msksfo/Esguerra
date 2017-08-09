@@ -1,0 +1,211 @@
+
+
+body {
+	background-color: #b6a5a5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Quicksand', sans-serif;
+	box-sizing: border-box;
+	}
+
+.header {
+	background-color: #6c5454;
+	color: white;
+	font-family: 'Bellefair', serif;
+	}
+
+#coverphoto {
+	margin-left: 10px;
+	max-width: 450px;
+	border: 1px solid black;
+	}
+
+
+.main {
+	display: flex;
+	margin: 20px 0 20px 0;
+	}
+
+#names-container {
+	display: flex;
+	flex-direction: column;
+	border-right: 8px double #fffafa;
+	opacity: .3;
+	padding-top: 15px;
+	font-size: 2.8rem;
+	}
+
+#names {
+	 flex: 1;
+	 display: flex;
+	 flex-direction: column;
+	}
+
+.nameslink {
+	display: block;
+	text-align: center;
+	font-family: 'Bellefair', serif;
+	justify-content: flex-end;
+	flex: 1;
+	text-decoration: none;
+	}
+	
+
+#names a {
+	color: black;
+	opacity: .7;
+	}
+	
+#names a:hover {
+	color: blue;
+	opacity: .7;
+	text-decoration: none;
+	}
+
+#summarycontainer {
+	/*  border: 1px solid blue;  */
+	padding-top: 15px;
+	}
+
+#footer {
+	margin-top: 10px;
+	background-color: #6c5454;
+	color: white;
+	min-height: 4.50rem;
+	display: flex;
+	align-items: baseline;
+	font-family: 'Bellefair', serif;
+	}
+
+#familylinks {
+	margin-top: 10px;
+	background-color: #6c5454;
+	color: white;
+	opacity: .6;
+	min-height: 4.50rem;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Bellefair', serif;
+	}
+
+#footer div {
+	opacity: .9;
+	padding: 10px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	}
+
+
+#footer div.larger {
+	font-size: 1.5rem;
+	}
+
+#footer div.icons {
+	justify-content: space-around;
+	}
+
+.icons a {
+	color: white;
+	opacity: .9;
+}
+
+.icons a:hover {
+	color: blue;
+	opacity: .3;
+}
+
+.hidden-md-up {
+	margin-bottom: 1rem;
+}
+
+.header {
+	border: 1px solid white;
+}
+
+/*-------------------------------------------------------*/
+
+@media all and (max-width: 767px){
+
+	#footer {
+		background-color: #6c5454;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		font-family: 'Bellefair', serif;
+		margin-bottom: 30px;
+		}
+
+	#footer div {
+		width: 100%;
+		height: 4.5rem;
+		opacity: .9;
+		flex: 1;
+		align-items: center;
+		}
+
+	#footer div.larger {
+		font-size 1.5rem;
+		}
+
+	.smaller {
+		order: 2;
+	}
+
+	} /* closes the small media query  */
+
+
+
+
+
+ @media all and (min-width: 768px) {
+ 	h1 {
+ 		font-size: 4rem;
+ 	}
+
+ 	#familylinks {
+ 		display: flex;
+ 		justify-content: space-around;
+ 		align-items: center;
+
+ 	}
+
+ 	.header {
+ 		min-height: 6.50rem;
+ 		display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+} /* closes the medium mediq query */
+
+@media all and (min-width: 1200px){
+	body {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border 1px solid rgba(139,137,137,.4)
+	}
+} /* closes xlarge media query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

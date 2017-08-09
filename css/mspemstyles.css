@@ -1,0 +1,60 @@
+body {
+	box-sizing: border-box;
+}
+
+
+.card-deck {
+	margin-bottom: 2rem;
+	margin-top: 2.3rem;
+}
+
+#bio {
+	border: 1px solid pink;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	
+}
+
+figure img {
+	border: 2px solid black;
+}
+
+section p {
+	padding: 3%;
+}
+
+i {
+	margin-left: 1rem;
+	margin-bottom: .5rem;
+	color: gray;
+}
+i:hover {
+	color: purple;
+}
+
+
+
+
+/* ----------------------------------------------------------------*/
+
+
+
+@media all and (min-width: 768px){
+	#bio {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+	}
+
+	} /* closes the medium media query */
+
+@media all and (min-width: 1200px){
+	body {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid rgba(139,137,137,.4);
+		border: 1px solid lightsteelblue;
+	}
+} /* closes xlarge media query */

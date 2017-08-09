@@ -1,0 +1,137 @@
+body {
+	background-color: #810000;
+	font-family: 'Roboto Mono', monospace;
+	color: #FFFAF0;
+	box-sizing: border-box;
+	}	
+
+h1 {
+	color: #810000;
+	}
+
+nav {
+	margin-top: 1rem;
+	border: 5px solid #0d505a;
+	}
+
+.mainsection {
+	display: flex;
+	border 1px solid white;
+	margin-bottom: 1.5rem;
+}
+
+.topsection {
+	margin-top: 1.2rem;
+	}
+
+.gallerysection {
+	margin-top: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid #d8a3a0;
+	border-top: 1px solid #d8a3a0;
+	}
+
+#gallery {
+	display: flex;
+	justify-content: space-around;
+	padding: 1rem;
+	}
+
+.gallerypics {
+	border: 2px solid white;}
+
+
+#bio {
+	border-left: 1px solid #d8a3a0;
+	border-bottom: 1px solid #d8a3a0;
+	padding-left: 16px;
+	}
+
+#names-container {
+	display flex;
+	flex-direction: column;
+	margin-top: 1.2rem;
+	margin-right: 2rem;
+	border 1px solid blue;
+	border-right: 4px double burlywood;
+	padding-top 15px;
+	font-size: 2.3rem;
+}
+
+.nameslink {
+	display: block;
+	text-decoration: none;
+	opacity: 0.3;
+	padding-right: 8px;
+	color: white;
+	margin-bottom: 16px;
+	flex: 1; /*    WHY IS THIS NOT WORKING???????   */
+	}
+
+ a:hover {
+	color: #020d0a;
+	opacity: .8;
+	text-decoration: none;
+	}
+
+#valerian {
+	padding: 1rem;
+}
+
+.footer {
+	border 1px solid aqua;
+	margin-bottom: 30px;
+	margin-top: 3rem;
+}
+
+#footergallery {
+	border 1px solid white;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+
+.footerpic {
+	width: 100px;
+	margin: 10px;
+}
+
+/*------------------------------------------------------- */
+
+
+@media all and (min-width: 1200px){
+	body {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border 1px solid rgba(139,137,137,.4)
+	}
+} /* closes xlarge media query */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

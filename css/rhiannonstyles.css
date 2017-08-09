@@ -1,0 +1,174 @@
+
+
+body {
+	background-color: #F8F4Fa;
+	border-top 45px solid #e8397F;
+	margin: 0;
+	padding: 0;	
+	display: flex;
+	flex-direction: column;
+	/*font-family: 'Londrina Shadow', cursive;*/
+	font-family: 'Londrina Outline', cursive;
+	font-weight: bold;
+	}
+
+.borders {
+	display: flex;
+	flex-direction: column;
+	order: 1;
+}
+
+.border2 {
+	height: 2rem;
+	background-color:#e819c8;
+	}
+
+.border3 {
+	height: 1.31rem;
+	background-color: #691aa4;
+	}
+
+.border4 {
+	height: .68rem;
+	background-color: #7DB7FA;
+	}
+
+h1 {
+	font-family: 'Ruge Boogie', cursive;
+	font-weight: bold;
+	font-size: 3.5rem;
+	color: #7DB7FA;
+	}
+
+h1:hover {
+	color: #691aa4;
+	opacity: 1.0;
+	}
+
+a:hover {
+	text-decoration: none;
+}
+
+.bigfatmain {
+	order: 2;
+	margin-bottom: 1rem;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	order 2;
+	}
+
+.bio {
+	font-weight: bold;
+	font-size: 1.37rem;
+	padding: 15px;
+}
+
+.nav-link {
+	font-weight: bold;
+	font-family cursive;
+	}
+
+#photocontainer {
+	width: 80%;
+	align-self: center;
+	}
+
+figcaption {
+	font-size: 1.3rem;
+}
+
+.meaning:hover {
+	text-decoration: none;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+@media all and (min-width: 768px){
+	body {
+		border-top: 2.81rem solid #e8397f;
+	}
+
+	h1 {
+		padding: 10px 0 0 0;
+		border: none;
+	}
+
+	.borders {
+		order: 0;
+	}
+
+	.bigfatmain {
+		display: flex;
+	}
+
+	#photocontainer {
+		width: 100%;
+	}
+
+	#names-container {
+		display flex;
+		flex-direction: column;
+		padding-top:15px;
+		font-size: 2.3rem;
+	}
+
+	.nameslink {
+		display: block;
+		margin-bottom: 2.4rem;
+		text-align: center;
+		text-decoration: none;
+		opacity: 0.4;
+		color: #e20080;	
+		}
+
+	 a:hover {
+		color: #7db7fa;
+		opacity: .9;
+		text-decoration: none;
+		}
+
+
+	
+
+} /* closes medium media query */
+
+@media all and (min-width: 992px) {
+	h1 {
+		border-top: 2px solid #e819c8;
+		border-bottom: 2px solid #e819c8;
+		padding: 20px 0 20px;
+		font-size: 500%;
+		
+		}
+
+	.bigfatmain {
+		margin-top: 2rem;
+	}
+
+} /* closes the large media query */
+
+@media all and (min-width: 1200px){
+	body {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid rgba(139,137,137,.4)
+	}
+} /* closes xlarge media query */
+
+
+
+
+
+
+
+
+
+
+
+
