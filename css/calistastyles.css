@@ -113,12 +113,12 @@ body {
 	}
 
 #calistaprofile {
-margin-right: 20px;
-margin-left: 15px;
-width: 200px;
-border: 2px solid red;
-float: right;
-transition: .5s ease;
+	margin-right: 20px;
+	margin-left: 15px;
+	width: 200px;
+	border: 2px solid red;
+	float: right;
+	transition: .5s ease;
 }
 
 #calistaprofile:hover {
@@ -127,7 +127,6 @@ width: 300px;
 }
 
 h1 {
-	text-align: center;
 	color: #000772;
 	font-family: cursive;
 	font-size: 3.3em;
@@ -199,6 +198,12 @@ iframe {
 		border 1px solid rgba(139,137,137,.4)
 	}
 } /* closes xlarge media query */
+
+@media all and (min-width: 576px){
+	h1 {
+		text-align: center;
+	}
+}
 
 
 
