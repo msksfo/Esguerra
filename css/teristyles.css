@@ -1,6 +1,7 @@
 body {
 	background-color: oldlace;
 	box-sizing: border-box;
+	margin-bottom: 1rem;
 }
 
 .header {
@@ -20,7 +21,7 @@ body {
 	display: flex;
 	border-top: 8px double rgba(225,225,225,.8);
 	padding-top: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1.2rem;
 }
 
 #photosection img {

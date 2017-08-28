@@ -131,7 +131,43 @@ h1 {
 	border: 1px solid white;
 }
 
+.rock, .travellers {
+	margin-bottom: 1rem;
+}
+
+.rock {
+	margin-right: .5rem;
+}
+
+.travellers {
+	margin-left: .5rem;
+}
+
+.coolauntie {
+	margin-bottom: .5rem;
+}
+
+
 /*-------------------------------------------------------*/
+
+@media all and (min-width: 418px){
+	.rock, .travellers {
+		margin-bottom: 0;
+	}
+
+	.rock {
+		margin-right: 0;
+	}
+
+	.travellers {
+		margin-left: 0;
+	}
+
+	.coolauntie {
+		margin-bottom: 0;
+	}
+}
+
 
 @media all and (max-width: 767px){
 
@@ -158,6 +194,14 @@ h1 {
 
 	.smaller {
 		order: 2;
+	}
+
+	#footer div.no-padding-bottom {
+		padding-bottom: 0;
+	}
+
+	#footer div.icons {
+		padding-top: 0;
 	}
 
 	} /* closes the small media query  */
