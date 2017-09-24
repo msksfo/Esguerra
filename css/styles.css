@@ -20,7 +20,9 @@ body {
 
 h1 {
 	font-size: 1.6rem;
+	animation-delay: 500ms;
 }
+
 
 #coverphoto {
 	margin-left: 10px;

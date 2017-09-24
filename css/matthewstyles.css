@@ -43,6 +43,7 @@ h1 {
 	margin-left: 2%;
 	text-shadow: 8px 9px black;
 	font-size 4rem;
+	animation-delay: 500ms;
 	}
 
 h1:hover {

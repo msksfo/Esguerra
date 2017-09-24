@@ -130,6 +130,7 @@ h1 {
 	color: #000772;
 	font-family: cursive;
 	font-size: 3.3em;
+	animation-delay: 500ms;
 	}
 
 #calistabio a {
@@ -177,7 +178,6 @@ iframe {
 #volleyballblurb {
 	width: 37%;
 	float: left;
-	margin-left 1rem;
 	}
 
 #volleyballblurb a:hover {
