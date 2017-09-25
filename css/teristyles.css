@@ -54,6 +54,7 @@ body {
 	background-color: rgba(96, 192, 220, .7);
 	color: floralwhite;
 	animation-duration: 5s;
+	animation-delay: .5s;
 }
 
 iframe {
