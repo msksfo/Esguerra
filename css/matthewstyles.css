@@ -87,6 +87,7 @@ p a {
 
 p a:hover {
 	color: cyan;
+	text-decoration: none;
 	}
 
 table {
