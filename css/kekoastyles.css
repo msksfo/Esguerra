@@ -15,12 +15,15 @@ nav {
 	margin-top: 2rem;
 	}
 
+#button {
+	z-index: 5;
+}
+
 h1 {
 	color: #0048ba;
 	font-family: 'Ravi Prakash', cursive;
 	letter-spacing: 1.6rem;
 	font-size: 2rem;
-	animation-delay: 500ms;
 	}
 
 h1:hover {
@@ -56,11 +59,7 @@ header {
 	background-color: #bdc2cc;
 	margin: 3% 1.5% 3% 1.5%;
 	width: 100%;
-	}
-
-h1:hover {
-	color: #ba0048;
-	}
+}
 
 #names-container {
 	order: -1;
@@ -88,7 +87,9 @@ h1:hover {
 	text-decoration: none;
 	}
 
-.meaning:hover {
+
+
+a.meaning {
 	text-decoration: none;
 }
 

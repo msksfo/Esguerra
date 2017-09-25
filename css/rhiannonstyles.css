@@ -12,6 +12,10 @@ body {
 	font-weight: bold;
 	}
 
+#button {
+	z-index: 5;
+}
+
 .borders {
 	display: flex;
 	flex-direction: column;
@@ -34,6 +38,8 @@ body {
 	}
 
 h1 {
+	margin-left: 3rem;
+	letter-spacing: 3px;
 	font-family: 'Ruge Boogie', cursive;
 	font-weight: bold;
 	font-size: 3.5rem;
@@ -45,9 +51,6 @@ h1:hover {
 	opacity: 1.0;
 	}
 
-a:hover {
-	text-decoration: none;
-}
 
 .bigfatmain {
 	order: 2;
@@ -68,7 +71,7 @@ a:hover {
 
 .nav-link {
 	font-weight: bold;
-	font-family cursive;
+	font-size: 1.8rem;
 	}
 
 #photocontainer {
