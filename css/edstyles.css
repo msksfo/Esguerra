@@ -72,6 +72,14 @@ nav {
 	flex: 1; /*    WHY IS THIS NOT WORKING???????   */
 	}
 
+.nav-link {
+	transition: .3s ease;
+}
+
+.nav-link:hover {
+	font-size: 1.6rem;
+}
+
  a:hover {
 	color: #020d0a;
 	opacity: .8;

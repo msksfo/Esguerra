@@ -71,8 +71,12 @@ h1:hover {
 
 .nav-link {
 	font-weight: bold;
-	font-size: 1.8rem;
-	}
+	transition: .3s ease;
+}
+
+.nav-link:hover {
+	font-size: 1.6rem;
+}
 
 #photocontainer {
 	width: 80%;

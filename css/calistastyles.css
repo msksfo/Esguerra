@@ -58,6 +58,7 @@ body {
 	box-sizing: border-box;
 	background-color:  #000772;
 	font-family: cursive;
+	font-family: 'Dancing Script', cursive;
 	color: #000772;
 	max-width: 1200px;
 	}
@@ -82,7 +83,7 @@ body {
 	flex-direction: column;
 	opacity: .4;
 	padding-top:15px;
-	font-size: 1.9rem;
+	font-size: 2rem;
 	}
 
 #names {
@@ -98,6 +99,14 @@ body {
 	flex: 1;
 	text-decoration: none;
 	}
+
+.nav-link {
+	transition: .3s ease;
+}
+
+.nav-link:hover {
+	font-size: 1.6rem;
+}
 	
 .extraspace {
 	flex-grow: 4;
@@ -111,7 +120,7 @@ body {
 	
 #names a:hover {
 	color: #e20080;
-	opacity: .8;
+	opacity: .9;
 	text-decoration: none;
 	}
 
@@ -131,8 +140,7 @@ width: 300px;
 
 h1 {
 	color: #000772;
-	font-family: cursive;
-	font-size: 3.3em;
+	font-size: 6rem;
 	animation-delay: 300ms;
 	}
 
@@ -157,7 +165,7 @@ hr {
 p {
 	text-align: center;
 	padding-left:20px;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 }
 
 p > a {

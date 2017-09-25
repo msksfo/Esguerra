@@ -39,6 +39,15 @@ body {
 	color: white;
 	flex: 1;
 	}
+
+.nav-link {
+	transition: .3s ease;
+}
+
+.nav-link:hover {
+	font-size: 1.6rem;
+}
+	
 .extraspace {
 	flex: 5;
 }
