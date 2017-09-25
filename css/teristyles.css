@@ -50,6 +50,12 @@ body {
 	margin-top: 2rem;
 }
 
+.animated {
+	background-color: rgba(96, 192, 220, .7);
+	color: floralwhite;
+	animation-duration: 5s;
+}
+
 iframe {
 	width: 100%;
 }
@@ -93,6 +99,15 @@ i.fa-heart {
 		margin-top: 1.4rem;
 		padding: 2%;
 	}
+
+	#photosection figure {
+		transition: .6s ease;
+	}
+
+	#photosection figure:hover {
+		transform: rotate(3deg);
+	}
+
 
 } /* closes medium media query */
 
